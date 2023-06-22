@@ -3,7 +3,7 @@ import {Resolver, Query, Ctx, Arg, Int, Mutation} from "type-graphql"
 import { MyContext } from "../types"
 
 // A resolver is a class that contains a bunch of methods that are called resolvers.
-// These methods are called whenever a query or mutation is called.
+// These methods are called whenever a query or mutation is called
 
 @Resolver()
 export class JobResolver {
